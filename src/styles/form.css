@@ -1,0 +1,38 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/drone-img3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.box-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: lightcyan;
+  margin-top: 20px;
+}
